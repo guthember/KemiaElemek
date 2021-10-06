@@ -15,8 +15,14 @@ namespace Kemia
     static void Main(string[] args)
     {
       MasodikFeladat();
+      HarmadikFeladat();
 
       Console.ReadKey();
+    }
+
+    private static void HarmadikFeladat()
+    {
+      Console.WriteLine("3. feladat: Elemek száma: {0}",elemek.Count);
     }
 
     private static void MasodikFeladat()
